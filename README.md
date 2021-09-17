@@ -1,19 +1,17 @@
-## Getting Started
+# WhatDoesFoxSay
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This program will read from the file "Audio.txt" in the format of int, lines of audio sounds, sound definitions in the form "<animal> goes <sound>". It will take the information and print out the remaining sounds. 
+You can input multiple entries in the same format. There cannot be a gap line between entries. Input your audio files by entering them into "Audio.txt". Follow the examples. 
+End each audio entry with "what does the fox say?" to initiate sorting process. The results print out in the terminal.  
 
--------https://www.geeksforgeeks.org/split-string-java-examples/ 
+## Outside sources
+While writing I only drew code from one website.
+This code allowed me to split the strings of sounds and sound definitions into my arrays, giving each string a chronological slot in both arrays. 
+ https://www.geeksforgeeks.org/split-string-java-examples/ 
 
 ## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Necessary pieces to the code reside in the 'src' folder. FoxTalks.java is the main code file. Audio.txt is the input file. 
 
 ## Dependency Management
 

@@ -1,6 +1,4 @@
 import java.io.File;
-import java.io.*;
-import java.io.FileReader;
 import java.util.*;
 
 public class FoxTalks {
@@ -15,6 +13,8 @@ public class FoxTalks {
      * 
      * Can read multiple audio entries in same file when put in the same format. 
      *  NO EXTRA LINE BETWEEN AUDIO ENTRIES.(attempting to bug that out at line 148) 
+     * 
+     * @author Abby Bock
      * 
      * @param args
      * @throws Exception
